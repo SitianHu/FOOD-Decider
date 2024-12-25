@@ -12,5 +12,5 @@ const foods = ["喜茶", "茶颜", "一点点", "coco", "茶百道", "蜜雪冰�
 // 按钮点击事件
 button.addEventListener('click', () => {
   const randomFood = foods[Math.floor(Math.random() * foods.length)];
-  result.textContent = `今天喝：${randomFood} 🧋`;
+  result.textContent = `今天喝：${randomFood} 🥤`;
 });
