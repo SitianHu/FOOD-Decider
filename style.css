@@ -1,22 +1,25 @@
 body {
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'ZCOOL KuaiLe', sans-serif;
   text-align: center;
-  background: linear-gradient(135deg, #fff1f0, #ffe9e3);
+  background: linear-gradient(135deg, #fff7f0, #ffe4e1);
   padding: 50px;
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 420px;
   margin: 0 auto;
   padding: 30px;
-  background: #fffaf7;
+  background: #ffffffcc;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(255, 153, 153, 0.2);
+  box-shadow: 0 8px 24px rgba(255, 150, 150, 0.2);
 }
 
 h1 {
-  color: #ff6f61;
-  margin-bottom: 30px;
+  font-family: 'Ma Shan Zheng', cursive;
+  color: #ff8c42;
+  font-size: 2em;
+  margin-bottom: 25px;
 }
 
 button {
@@ -25,39 +28,26 @@ button {
   background-color: #ffa5ab;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
-  margin: 5px;
 }
 
 button:hover {
   background-color: #ff6f91;
 }
 
-button:active {
-  transform: scale(0.95);
-}
-
 #result {
   margin-top: 20px;
-  font-size: 22px;
-  color: #ff6f61;
+  font-size: 20px;
+  color: #ff4e50;
   min-height: 40px;
 }
 
 ul#history {
   list-style: none;
   padding: 0;
-  margin-top: 30px;
-  font-size: 16px;
+  margin-top: 20px;
+  font-size: 14px;
   color: #6f4e37;
-}
-
-@keyframes shake {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(3deg); }
-  50% { transform: rotate(-3deg); }
-  75% { transform: rotate(3deg); }
-  100% { transform: rotate(0deg); }
 }
